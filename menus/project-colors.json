@@ -1,0 +1,32 @@
+{
+  "context-menu": {
+    ".tree-view": [
+      {
+        "label": "Set Custom Project Color",
+        "command": "project-colors:set-custom-project-color"
+      },
+      {
+        "label": "Set Random Project Color",
+        "command": "project-colors:set-random-project-color"
+      },
+      {
+        "label": "Reset Project Color",
+        "command": "project-colors:reset-project-color"
+      }
+    ],
+    ".texteditor.active": [
+      {
+        "label": "Set Custom Project Color",
+        "command": "project-colors:set-custom-project-color"
+      },
+      {
+        "label": "Set Random Project Color",
+        "command": "project-colors:set-random-project-color"
+      },
+      {
+        "label": "Reset Project Color",
+        "command": "project-colors:reset-project-color"
+      }
+    ]
+  }
+}

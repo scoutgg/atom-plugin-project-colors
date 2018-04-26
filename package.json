@@ -1,0 +1,28 @@
+{
+  "name": "project-colors",
+  "main": "./lib/project-colors",
+  "version": "1.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {},
+  "consumedServices": {
+    "tree-view": {
+      "versions": {
+        "1.0.0": "consumeTreeView"
+      }
+    },
+    "color-picker": {
+      "versions": {
+        "1.0.0": "consumeColorPicker"
+      }
+    }
+  },
+  "repository": "https://github.com/atom/project-colors",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "randomcolor": "^0.5.3"
+  }
+}
